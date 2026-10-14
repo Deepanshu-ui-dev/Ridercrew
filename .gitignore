@@ -1,0 +1,64 @@
+# Dependency modules
+node_modules/
+.dart_tool/
+.pub-cache/
+.pub/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Build and generated output
+build/
+**/build/
+coverage/
+**/ios/Flutter/.last_build_id
+**/ios/Flutter/ephemeral/
+**/macos/Flutter/ephemeral/
+*.class
+*.pyc
+*.log
+*.map
+*.symbols
+*.symbols.json
+
+# Private configuration and credentials
+.env
+.env.*
+!.env.example
+private/
+**/private/
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+*.jks
+**/key.properties
+**/local.properties
+
+# IDE and operating-system files
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.DS_Store
+Thumbs.db
+*.swp
+
+# Package-manager and tool caches
+.npm/
+.yarn/
+.pnpm-store/
+.gradle/
+.cxx/
+.swiftpm/
+.history/
+.build/
+.buildlog/
+
+# Platform-generated files
+**/GeneratedPluginRegistrant.java
+**/GeneratedPluginRegistrant.m
+**/GeneratedPluginRegistrant.swift
+**/flutter_export_environment.sh
+**/xcuserdata/
